@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+}
+
+.pagina {
+    width: 900px;
+    min-height: 300px;
+    border: 3px solid #000000;
+    margin: 0 auto;
+    padding: 4px;
+    display: flex;
+    gap: 12px;
+}
+
+.perfil {
+    width: 210px;
+    border: 3px solid #00b050;
+    padding: 28px 34px;
+}
+
+.area-logo {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.logotipo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.informacoes {
+    font-size: 12px;
+}
+
+.informacoes p {
+    margin-bottom: 35px;
+}
+
+.conteudo {
+    flex: 1;
+    border: 3px solid #ff6600;
+    padding: 30px 10px;
+}
+
+.post {
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    padding: 25px 15px;
+    margin-bottom: 15px;
+}
+
+.post h2 {
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.post p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.legenda {
+    width: 900px;
+    margin: 8px auto 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
