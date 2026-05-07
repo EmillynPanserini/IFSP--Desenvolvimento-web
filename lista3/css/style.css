@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.tabela-principal {
+    width: 580px;
+    margin: 0 auto;
+}
+
+.col-cod {
+    width: 50px;
+}
+
+.col-descricao {
+    width: 140px;
+}
+
+.col-tipo {
+    width: 130px;
+}
+
+.col-valor {
+    width: 260px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 1px 6px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.referencias {
+    text-align: center;
+    vertical-align: middle;
+    height: 105px;
+    font-size: 16px;
+}
+
+.area-tabela-interna {
+    padding: 16px 12px;
+}
+
+.tabela-interna {
+    width: 235px;
+    margin: 0 auto;
+}
+
+.tabela-interna td {
+    padding: 1px 6px;
+    font-size: 16px;
+}
