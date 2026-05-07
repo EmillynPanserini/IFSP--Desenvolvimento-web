@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+main {
+    width: 610px;
+    margin: 30px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 3px;
+    font-size: 14px;
+}
+
+.titulo-claro {
+    background-color: #5bc0de;
+    color: black;
+    width: 58%;
+    font-weight: normal;
+}
+
+.titulo-escuro {
+    background-color: #000066;
+    width: 42%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    height: 24px;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+}
+
+select {
+    height: 24px;
+}
+
+label {
+    font-size: 14px;
+}
+
+.label-inline {
+    margin-right: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+}
+
+.assuntos {
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.assuntos p {
+    margin-bottom: 16px;
+}
+
+.botoes {
+    margin-top: 18px;
+}
+
+button {
+    padding: 4px 10px;
+    margin-right: 8px;
+    cursor: pointer;
+}
